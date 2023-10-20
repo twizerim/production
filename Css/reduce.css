@@ -6,12 +6,6 @@
     font-family: pappin,sans-serif;
     box-sizing: border-box;
 }
-@media(max-width:1292px){
-    .card1 img {
-        width: 300px;
-        height: 300px;
-      }
-}
 @media(max-width:1160px){
     .logo{
         font-size: 2rem;
@@ -20,16 +14,14 @@
     .links{
         gap: 1.5rem;
     }
-    .card1 img {
-        width: 270px;
-        height: 270px;
-      }
 }
 @media(max-width:975px){
-    .card1 img {
-        width: 200px;
-        height: 200px;
-      }
+    .ours{
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 2rem;
+        justify-content: center;
+    }
     .logo{
         font-size: 1.8rem;
     }
@@ -80,24 +72,20 @@
 @media(max-width:693px){
     .diff-card{
         display: grid;
-        grid-template-columns: repeat(1, 2rf);
+        grid-template-columns: repeat(1, 2fr);
     }
     .card{
         width: 60%;
     }
     .ours{
         display: grid;
-        grid-template-columns: repeat(1, 2rf);
+        grid-template-columns: repeat(2, 2fr);
         gap: 2rem;
         justify-content: center;
     }
-    .card1 img {
-        width: 250px;
-        height: 250px;
-      }
       .fill{
         display: grid;
-        grid-template-columns: repeat(1, 2rf);
+        grid-template-columns: repeat(1, 2fr);
         gap: 2rem;
     }
     .form{
@@ -143,7 +131,7 @@
     }
     .join{
         display: grid;
-        grid-template-columns: repeat(1, 1rf);
+        grid-template-columns: repeat(1, 1fr);
     }
     .conte{
         width: 100%;
@@ -159,12 +147,18 @@
      .links{
         gap: 1rem;
      }
+     .ours{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 2rem;
+        justify-content: center;
+    }
 }
 @media(max-width:492px){
     #about{
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(1, 2rf);
+        grid-template-columns: repeat(1, 2fr);
     }
     .about{
         width: 100%;
@@ -180,10 +174,6 @@
     }
 }
 @media(max-width:379px){
-    .card1 img {
-        width: 100px;
-        height: 100px;
-      }
    
  
     .logo{
@@ -214,4 +204,3 @@
         font-size: 0.6rem;
     }
 }
-/* @media(max-width:){} */

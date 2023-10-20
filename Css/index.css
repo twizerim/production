@@ -327,22 +327,22 @@ p{
     padding: 2rem;
 }
 span li{
-    font-size: 2rem;
+    font-size: 1.2rem;
     list-style: none;
 }
 span{
-    padding: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 .content button a{
-    padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .content h4{
     text-decoration: underline;
 }
 .ours{
-    display: flex;
-    justify-content:space-between;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 2fr);
     align-items: center;
     padding: 2rem;
 }
@@ -351,8 +351,6 @@ span{
     overflow: hidden;
 }
 .card1 img {
-    width: 400px;
-    height: 400px;
     overflow: hidden;
     border-radius: 12px;
   }
@@ -402,12 +400,12 @@ span{
       }
       
       .content h4 {
-        font-size: 1.8rem;
-        margin-bottom: 1.5rem;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
         font-weight: 700;
       }
       .content p {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
       }
       /* --------------------------end of production-------------------------------- */
       .join-container{
